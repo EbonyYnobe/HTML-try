@@ -5,18 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Markmap</title>
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            background-color: #000; /* 黑底 */
+            color: #fff;            /* 白字 */
+        }
+    
+        #mindmap {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            background-color: #000; /* 保持 SVG 背景也是黑色 */
+            color: #fff;            /* 預設文字顏色白色 */
+        }
+    </style>
 
-            #mindmap {
-                display: block;
-                width: 100vw;
-                height: 100vh;
-            }
-        </style>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.18/dist/katex.min.css">
     </head>
